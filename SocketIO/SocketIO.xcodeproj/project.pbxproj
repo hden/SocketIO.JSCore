@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BE2F4DD719433F180069DE60 /* Socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		BE2F4DD819433F180069DE60 /* Socket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
+		BE2F4DD919433F520069DE60 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		BE2F4DDA19433F520069DE60 /* SocketIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BE2F4DB019433C090069DE60 = {
+			isa = PBXGroup;
+			children = (
+				BE2F4DD919433F520069DE60 /* SocketIO.h */,
+				BE2F4DDA19433F520069DE60 /* SocketIO.m */,
+				BE2F4DD719433F180069DE60 /* Socket.h */,
+				BE2F4DD819433F180069DE60 /* Socket.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BE2F4DB119433C090069DE60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = BE2F4DB419433C090069DE60 /* Build configuration list for PBXProject "SocketIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE2F4DB019433C090069DE60;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BE2F4DB519433C090069DE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BE2F4DB619433C090069DE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2F4DB419433C090069DE60 /* Build configuration list for PBXProject "SocketIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2F4DB519433C090069DE60 /* Debug */,
+				BE2F4DB619433C090069DE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2F4DB119433C090069DE60 /* Project object */;
+}
