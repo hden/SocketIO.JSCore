@@ -5,7 +5,7 @@ PODS:
   - Expecta (0.2.4)
   - OCMock (2.1.1)
   - SocketIO (0.0.1):
-    - Emitter (~> 0.0)
+    - Emitter
   - Specta (0.2.1)
 
 DEPENDENCIES:
@@ -23,7 +23,7 @@ SPEC CHECKSUMS:
   Emitter: be2820bd9ef5a3644da3cb34d9ec19e44c1213e6
   Expecta: 112bcafa2304ee0f3c5e586505f24555a47b25d5
   OCMock: 363db8429164eaa219ea96a51f06e830ef3e7393
-  SocketIO: 4639e969037f0ffea53d112ee9a2eb3ac225afaa
+  SocketIO: 536857719a1d3ebfa9e7b25834a9c407d3253610
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
 
 COCOAPODS: 0.33.1

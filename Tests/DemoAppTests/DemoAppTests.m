@@ -81,10 +81,6 @@ describe(@"socket.io connection", ^{
         }];
         [socket emit:@"getUtf8", nil];
     });
-    
-    it(@"should connect to a namespace after connection established", ^AsyncBlock {
-    
-    });
 });
 
 SpecEnd

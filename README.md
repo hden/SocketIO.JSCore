@@ -30,7 +30,32 @@ Design
 Usage
 -----
 
-See [test suite]() for more code samples.
+    #import "SocketIO.h"
+
+    // This library is heavily inspired by the event emitter API of the official client
+    // Both SocketIO and Socket class are event emitter.
+    SocketIO *io = [[SocketIO alloc] init];
+
+    [io once:@"ready" listener:^{
+        Socket *socket = [io of:@"http://localhost:8000" and:@{}];
+        [socket once:@"hi" listener:^{
+            // recieved response from server
+        }];
+        [socket emit:@"hi", nil];
+
+        [socket emit:@"giveMeDataViaAck", @{@"test": @true}, ^(id *data) {
+            // got response
+        }, nil];
+    }];
+
+See [test suite](https://github.com/hden/SocketIO.JSCore/blob/master/Tests/DemoAppTests/DemoAppTests.m) for more code samples.
+
+Further Readings
+----------------
+
+* [JavaScript] [official documentation](http://socket.io/docs/)
+* [JavaScript] [node.js event emitter](http://nodejs.org/api/events.html)
+* [Obj-c] [event emitter](https://github.com/seegno/emitter-objc)
 
 Development
 -----------

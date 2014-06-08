@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SocketIO"
   s.version      = "0.0.1"
   s.summary      = "SocketIO v0.1.x via JavaScriptCore"
+  s.platform     = :ios, "7.0"
 
   s.description  = <<-DESC
                    A longer description of SocketIO in Markdown format.
@@ -18,15 +19,14 @@ Pod::Spec.new do |s|
   s.author                = { "Hao-kang Den" => "haokang.den@gmail.com" }
   s.social_media_url      = "http://twitter.com/_hden"
   s.ios.deployment_target = "7.0"
-  s.osx.deployment_target = "10.7"
 
   s.source       = { :git => "https://github.com/hden/SocketIO.JSCore.git", :tag => "0.0.1" }
   s.source_files = "SocketIO/**/*.{h,m}"
   s.requires_arc = true
 
   s.public_header_files = "SocketIO/**/*.h"
-  s.dependency 'Emitter', '~> 0.0'
+  s.dependency "Emitter"
   s.resource_bundle = {
-    "SocketIO" => "SocketIO/**/index.html"
+    "SocketIO" => "SocketIO/*.html"
   }
 end
