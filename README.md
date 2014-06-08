@@ -27,6 +27,12 @@ Design
     |    socket.io JavaScript    |
     ------------------------------
 
+Installation
+------------
+
+    platform :ios, '7.0'
+    pod 'SocketIO'
+
 Usage
 -----
 
